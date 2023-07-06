@@ -2,8 +2,10 @@
 <html lang="en">
 	
 	<head>
-		<title>Basic HTML</title>
 		<meta charset="utf-8">
+		<title>The Space Station | Resort</title>
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animations.css">
 	</head>
 	
 	
@@ -11,9 +13,9 @@
 	
 	
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#Home" id="link"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#contact"><li>RESERVATIONS</li></a>
@@ -24,25 +26,25 @@
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<span>The Space Station</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">The Space Station</span>
 				</div>
 			</div>
 		</div>
 		<!--END HOME -->
 		
 		<!--GALLERY -->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 				
 				<!--Photo Container 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_1.jfif" alt="Lightyears away">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
 							</div>
@@ -50,10 +52,10 @@
 					</div>
 				<!--End Photo Container 1 -->
 				<!--Photo Container 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_2.jfif" alt="Cosmos">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
 							</div>
@@ -61,10 +63,10 @@
 					</div>
 				<!--End Photo Container 2 -->
 				<!--Photo Container 3 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_3.jfif" alt="Unidentifiable flying object">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
 							</div>
@@ -72,10 +74,10 @@
 					</div>
 				<!--End Photo Container 3 -->
 				<!--Photo Container 4 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_4.jfif" alt="Not-so-distant planets">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
 							</div>
@@ -83,10 +85,10 @@
 					</div>
 				<!--End Photo Container 4 -->
 				<!--Photo Container 5 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_5.jfif" alt="adventure awaits">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
 							</div>
@@ -94,10 +96,10 @@
 					</div>
 				<!--End Photo Container 5 -->
 				<!--Photo Container 6 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_6.jfif" alt="Explore">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
 							</div>
@@ -105,10 +107,10 @@
 					</div>
 				<!--End Photo Container 6 -->
 				<!--Photo Container 7 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_7.jfif" alt="The unknown">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
 							</div>
@@ -116,10 +118,10 @@
 					</div>
 				<!--End Photo Container 7 -->
 				<!--Photo Container 8 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_8.jfif" alt"Stunning">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_8.jfif" alt="Stunning">
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
 							</div>
@@ -127,10 +129,10 @@
 					</div>
 				<!--End Photo Container 8 -->
 				<!--Photo Container 9 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_9.jfif" alt="Planetary action">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>We have several space launches departing daily, book your flight today!</p>
 							</div>
@@ -144,19 +146,19 @@
 		<!--END GALLERY -->
 		
 		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Reservations</h1>
-					<div>
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
 						<h2><span>Your adventure is just around the moon.</span>
 							<br />Reserve your flight today!
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide us with your basic contact information.
 						</p>
 						
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
 								<input class="rsvp" type="text" value="First Name">
 								<input class="rsvp" type="text" value="Last Name">
@@ -180,7 +182,7 @@
 		
 		
 		<!-- FOOTER -->
-		<div>
+		<div id="footer">
 			www.thespacestation.space &nbsp; | &copy; 2016
 		</div>
 		<!-- END FOOTER -->
