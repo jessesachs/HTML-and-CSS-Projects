@@ -1,0 +1,15 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+.rsvp {
+    width: max-content;
+    margin-right: 50cm;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    border-width: 1ch;
+    border-radius: 0%;
+
+}
